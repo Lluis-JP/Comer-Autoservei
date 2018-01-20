@@ -21,8 +21,12 @@ Horari::Horari(const Horari& orig) {
 
 Horari::~Horari() {
 }
-
+//pre:a<b
 void Horari::inserirFranja(Data a ,Data b){
     pair<Data, Data> data =pair(a, b);
-    FranjaesHoraries.push_back(data);//s'hauria de fer que inseris de forma ordenada
+    int i=0;
+    while(i<franjaesHoraries.size() && franjaesHoraries[i].first()<a){
+        i++;
+    }
+    franjaesHoraries.insert(data,i);
 }

@@ -13,13 +13,25 @@
 
 #ifndef PRODUCTE_H
 #define PRODUCTE_H
+#include "string"
+#include <vector>
 
+using namespace std;
 class Producte {
 public:
     Producte();
+    Producte(int codi, string nom, float preu);
     Producte(const Producte& orig);
     virtual ~Producte();
+    void afegirEstoc(int n);
+    void eliminarEstoc(int n);
+    float obtenirPreu()const;
 private:
+    int producteId;
+    float preu;
+    string nom;
+    int estocBotiga;//hauriem de considerar tambe el magetzem
+    //vector<Ofertes> ofertes
 
 };
 

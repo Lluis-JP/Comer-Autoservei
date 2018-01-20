@@ -13,14 +13,20 @@
 
 #ifndef EMPLEAT_H
 #define EMPLEAT_H
+#include <string>
 
+using namespace std;
 class Empleat {
 public:
     Empleat();
     Empleat(const Empleat& orig);
     virtual ~Empleat();
+    void afegirFranjaHoraria(Data a, Data b);
+    void eliminarFranjaHoraria();
 private:
-
+    int codiEmpleat;
+    string nomComplet;
+    Horari horari;
 };
 
 #endif /* EMPLEAT_H */

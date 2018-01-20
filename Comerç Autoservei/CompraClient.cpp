@@ -5,22 +5,20 @@
  */
 
 /* 
- * File:   main.cpp
+ * File:   CompraClient.cpp
  * Author: lluis_000
- *
- * Created on 18 de enero de 2018, 19:52
- */
-
-#include <cstdlib>
-
-using namespace std;
-
-/*
  * 
+ * Created on 20 de enero de 2018, 1:19
  */
-int main(int argc, char** argv) {
 
-    Producte p();
-    return 0;
+#include "CompraClient.h"
+
+CompraClient::CompraClient() {
+}
+
+CompraClient::CompraClient(const CompraClient& orig) {
+}
+
+CompraClient::~CompraClient() {
 }
 

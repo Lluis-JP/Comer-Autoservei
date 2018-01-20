@@ -13,14 +13,19 @@
 
 #ifndef CLIENT_H
 #define CLIENT_H
+#include "string"
+#include <vector>
 
+using namespace std;
 class Client {
 public:
     Client();
     Client(const Client& orig);
     virtual ~Client();
 private:
-
+    int codiClient;
+    string nomComplet;
+    vector<CompraClient> compra;
 };
 
 #endif /* CLIENT_H */

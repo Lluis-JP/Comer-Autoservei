@@ -37,9 +37,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Caixa.o \
 	${OBJECTDIR}/Client.o \
+	${OBJECTDIR}/CompraClient.o \
 	${OBJECTDIR}/Data.o \
 	${OBJECTDIR}/Empleat.o \
 	${OBJECTDIR}/Horari.o \
+	${OBJECTDIR}/Magatzem.o \
 	${OBJECTDIR}/Producte.o \
 	${OBJECTDIR}/main.o
 
@@ -78,6 +80,11 @@ ${OBJECTDIR}/Client.o: Client.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Client.o Client.cpp
 
+${OBJECTDIR}/CompraClient.o: CompraClient.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CompraClient.o CompraClient.cpp
+
 ${OBJECTDIR}/Data.o: Data.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -92,6 +99,11 @@ ${OBJECTDIR}/Horari.o: Horari.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Horari.o Horari.cpp
+
+${OBJECTDIR}/Magatzem.o: Magatzem.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Magatzem.o Magatzem.cpp
 
 ${OBJECTDIR}/Producte.o: Producte.cpp
 	${MKDIR} -p ${OBJECTDIR}

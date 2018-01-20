@@ -12,13 +12,20 @@
  */
 
 #include "Empleat.h"
+#include "Horari.h"
 
 Empleat::Empleat() {
 }
-
+Empleat::Empleat(int codi, string nom) {
+    this->codiEmpleat=codi;
+    this->nomComplet=nom;
+}
 Empleat::Empleat(const Empleat& orig) {
 }
 
 Empleat::~Empleat() {
 }
 
+void Empleat::afegirFranjaHoraria(Data a, Data b){
+    horari.inserirFranja(a,b);
+}

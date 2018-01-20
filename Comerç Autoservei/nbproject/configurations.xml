@@ -6,9 +6,11 @@
                    projectFiles="true">
       <itemPath>Caixa.h</itemPath>
       <itemPath>Client.h</itemPath>
+      <itemPath>CompraClient.h</itemPath>
       <itemPath>Data.h</itemPath>
       <itemPath>Empleat.h</itemPath>
       <itemPath>Horari.h</itemPath>
+      <itemPath>Magatzem.h</itemPath>
       <itemPath>Producte.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -20,9 +22,11 @@
                    projectFiles="true">
       <itemPath>Caixa.cpp</itemPath>
       <itemPath>Client.cpp</itemPath>
+      <itemPath>CompraClient.cpp</itemPath>
       <itemPath>Data.cpp</itemPath>
       <itemPath>Empleat.cpp</itemPath>
       <itemPath>Horari.cpp</itemPath>
+      <itemPath>Magatzem.cpp</itemPath>
       <itemPath>Producte.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -56,6 +60,10 @@
       </item>
       <item path="Client.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="CompraClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CompraClient.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Data.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Data.h" ex="false" tool="3" flavor2="0">
@@ -67,6 +75,10 @@
       <item path="Horari.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Horari.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Magatzem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Magatzem.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Producte.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -103,6 +115,10 @@
       </item>
       <item path="Client.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="CompraClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CompraClient.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Data.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Data.h" ex="false" tool="3" flavor2="0">
@@ -114,6 +130,10 @@
       <item path="Horari.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Horari.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Magatzem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Magatzem.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Producte.cpp" ex="false" tool="1" flavor2="0">
       </item>

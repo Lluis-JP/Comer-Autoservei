@@ -22,3 +22,14 @@ Producte::Producte(const Producte& orig) {
 Producte::~Producte() {
 }
 
+void Producte::afegirEstoc(int n){
+    estocBotiga+=afegirEstoc;
+}
+
+void Producte::eliminarEstoc(int n){
+    estocBotiga-=afegirEstoc;
+}
+
+float Producte::obtenirPreu() const{
+    return preu;
+}

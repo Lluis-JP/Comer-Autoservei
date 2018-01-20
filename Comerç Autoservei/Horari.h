@@ -23,11 +23,13 @@ public:
     Horari();
     Horari(const Horari& orig);
     virtual ~Horari();
+    //pre:a<b
     void inserirFranja(Data a ,Data b);
 
 private:
-        vector <pair <Data, Data> > FranjaesHoraries;
+        vector <pair <Data, Data> > franjaesHoraries;
 
+        
 
 };
 
