@@ -42,6 +42,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Empleat.o \
 	${OBJECTDIR}/Horari.o \
 	${OBJECTDIR}/Magatzem.o \
+	${OBJECTDIR}/Oferta.o \
 	${OBJECTDIR}/Producte.o \
 	${OBJECTDIR}/main.o
 
@@ -104,6 +105,11 @@ ${OBJECTDIR}/Magatzem.o: Magatzem.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Magatzem.o Magatzem.cpp
+
+${OBJECTDIR}/Oferta.o: Oferta.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Oferta.o Oferta.cpp
 
 ${OBJECTDIR}/Producte.o: Producte.cpp
 	${MKDIR} -p ${OBJECTDIR}
